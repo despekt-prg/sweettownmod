@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sweet-town-mod/icon.png",
+	"icon": "assets/sweettownmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
