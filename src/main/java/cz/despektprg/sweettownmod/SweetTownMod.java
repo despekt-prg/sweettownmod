@@ -1,5 +1,6 @@
 package cz.despektprg.sweettownmod;
 
+import cz.despektprg.sweettownmod.blocks.ModBlocks;
 import cz.despektprg.sweettownmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +13,7 @@ public class SweetTownMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.RegisterModItems();
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
