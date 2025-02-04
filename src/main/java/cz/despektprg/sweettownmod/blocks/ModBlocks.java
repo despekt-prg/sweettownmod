@@ -16,7 +16,7 @@ public class ModBlocks {
 
     public static final Block LICORICE_WOOD = registerBlock("licorice_wood",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.WOOD)));
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
