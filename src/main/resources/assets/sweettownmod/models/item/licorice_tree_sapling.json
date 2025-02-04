@@ -1,0 +1,6 @@
+ {
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "all": "sweettownmod:block/licorice_tree_sapling"
+  }
+}
