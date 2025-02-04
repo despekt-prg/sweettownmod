@@ -9,10 +9,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item GINGERBREAD_MAN = registerItem("gingerbread_man", new Item(new Item.Settings()));
+    public static final Item GINGERBREAD_MAN = registerItem("gingerbread_man", new Item(new Item.Settings().
+            food(ModFoodComponents.GINGERBREAD_MAN)));
     public static final Item SPICE = registerItem("spice", new Item(new Item.Settings()));
     public static final Item LICORICE_TREE_SAPLING = registerItem("licorice_tree_sapling",
-            new Item(new Item.Settings().food(ModFoodComponents.GINGERBREAD_MAN)));
+            new Item(new Item.Settings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SweetTownMod.MOD_ID, name), item);
