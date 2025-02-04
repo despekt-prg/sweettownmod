@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "sweettownmod:spice"
+    },
+    "2": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "   ",
+    "212",
+    "   "
+  ] ,
+  "result": {
+    "count": 1,
+    "id": "sweettownmod:gingerbread_man"
+  }
+}
