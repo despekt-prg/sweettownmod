@@ -7,15 +7,21 @@
     },
     "2": {
       "item": "minecraft:wheat"
+    },
+    "3": {
+      "item": "minecraft:honey_bottle"
+    },
+    "4": {
+      "item": "minecraft:egg"
     }
   },
   "pattern": [
-    "   ",
-    "212",
-    "   "
+    "242",
+    "131",
+    "242"
   ] ,
   "result": {
-    "count": 1,
+    "count": 9,
     "id": "sweettownmod:gingerbread_man"
   }
 }

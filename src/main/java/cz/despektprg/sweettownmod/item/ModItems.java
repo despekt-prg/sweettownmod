@@ -23,8 +23,11 @@ public class ModItems {
     public static void registerModItems() {
         SweetTownMod.LOGGER.info("Registering items for " + SweetTownMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(GINGERBREAD_MAN);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SPICE);
         });
 
