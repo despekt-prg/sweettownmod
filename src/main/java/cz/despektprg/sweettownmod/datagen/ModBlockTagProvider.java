@@ -16,6 +16,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.LICORICE_WOOD)
+                .add(ModBlocks.LICORICE_WOOD);
+
+        /*getOrCreateTagBuilder(BlockTags.PLANKS)*/
     }
 }
