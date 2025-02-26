@@ -16,5 +16,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.LICORICE_WOOD);
+        addDrop(ModBlocks.LICORICE_WOOD_PLANKS);
+        addDrop(ModBlocks.LICORICE_WOOD_LEAVES);
+        addDrop(ModBlocks.CANDY_BLOCK);
+        addDrop(ModBlocks.CANDY_BLOCK_POLISHED);
     }
 }

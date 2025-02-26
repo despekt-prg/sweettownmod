@@ -14,6 +14,8 @@ public class ModItems {
     public static final Item SPICE = registerItem("spice", new Item(new Item.Settings()));
     public static final Item LICORICE_TREE_SAPLING = registerItem("licorice_tree_sapling",
             new Item(new Item.Settings()));
+    public static final Item CANDY = registerItem("candy",
+            new Item(new Item.Settings().food(ModFoodComponents.CANDY)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SweetTownMod.MOD_ID, name), item);
@@ -25,6 +27,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(GINGERBREAD_MAN);
+            entries.add(CANDY);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {

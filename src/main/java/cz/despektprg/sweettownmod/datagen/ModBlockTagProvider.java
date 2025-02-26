@@ -18,6 +18,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.LICORICE_WOOD);
 
-        /*getOrCreateTagBuilder(BlockTags.PLANKS)*/
+        getOrCreateTagBuilder(BlockTags.PLANKS)
+                .add(ModBlocks.LICORICE_WOOD_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.LEAVES)
+                .add(ModBlocks.LICORICE_WOOD_LEAVES);
+
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CANDY_BLOCK)
+                .add(ModBlocks.CANDY_BLOCK_POLISHED);
     }
 }

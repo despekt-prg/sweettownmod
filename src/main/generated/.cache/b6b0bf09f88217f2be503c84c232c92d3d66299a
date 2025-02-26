@@ -1,2 +1,6 @@
-// 1.21.1	2025-02-22T21:43:43.4893622	Sweet Town Mod/Block Loot Tables
+// 1.21.1	2025-02-26T20:54:09.5576323	Sweet Town Mod/Block Loot Tables
+f35916c2cfd8cccbe491bbd213a00bc7e5c4a77e data\sweettownmod\loot_table\blocks\candy_block_polished.json
+dd5831e03530206d84482feda952fe493816c787 data\sweettownmod\loot_table\blocks\candy_block.json
+7d9bc78ccc2e8322cec6d8afb69dfa102a7b8432 data\sweettownmod\loot_table\blocks\licorice_wood_planks.json
+8033404227f48042efcae4e3f8b6943e4ac73a12 data\sweettownmod\loot_table\blocks\licorice_wood_leaves.json
 3428f2c723898293ad96f72532be13435317d9f0 data\sweettownmod\loot_table\blocks\licorice_wood.json

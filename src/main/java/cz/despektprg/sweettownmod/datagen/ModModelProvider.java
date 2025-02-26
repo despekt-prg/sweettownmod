@@ -16,6 +16,10 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LICORICE_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LICORICE_WOOD_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LICORICE_WOOD_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CANDY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CANDY_BLOCK_POLISHED);
     }
 
     @Override
@@ -23,5 +27,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SPICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GINGERBREAD_MAN, Models.GENERATED);
         itemModelGenerator.register(ModItems.LICORICE_TREE_SAPLING, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CANDY, Models.GENERATED);
     }
 }

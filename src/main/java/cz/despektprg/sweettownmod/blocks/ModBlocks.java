@@ -18,6 +18,22 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .sounds(BlockSoundGroup.WOOD)));
 
+    public static final Block LICORICE_WOOD_PLANKS = registerBlock("licorice_wood_planks",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block LICORICE_WOOD_LEAVES = registerBlock("licorice_wood_leaves",
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block CANDY_BLOCK = registerBlock("candy_block",
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block CANDY_BLOCK_POLISHED = registerBlock("candy_block_polished",
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
+
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(SweetTownMod.MOD_ID, name), block);
@@ -33,6 +49,12 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.LICORICE_WOOD);
+            entries.add(ModBlocks.LICORICE_WOOD_PLANKS);
+            entries.add(ModBlocks.CANDY_BLOCK);
+            entries.add(ModBlocks.CANDY_BLOCK_POLISHED);
         });
-    }
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(ModBlocks.LICORICE_WOOD_LEAVES);
+        });
+         }
 }

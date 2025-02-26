@@ -2,5 +2,10 @@
   "item.sweettownmod.gingerbread_man": "Perníček",
   "item.sweettownmod.spice": "Koření",
   "item.sweettownmod.licorice_tree_sapling": "Sazenice lékořicového dřeva",
-  "block.sweettownmod.licorice_wood": "Lékořicové dřevo"
+  "item.sweettownmod.candy": "Bonbón",
+  "block.sweettownmod.licorice_wood": "Lékořicové dřevo",
+  "block.sweettownmod.licorice_wood_leaves": "Lékořicové listy",
+  "block.sweettownmod.licorice_wood_planks": "Lékořicová prkna",
+  "block.sweettownmod.candy_block": "Bonbónový blok",
+  "block.sweettownmod.candy_block_polished": "Leštěný bonbónový blok"
 }

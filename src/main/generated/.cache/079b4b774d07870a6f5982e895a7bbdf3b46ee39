@@ -1,2 +1,5 @@
-// 1.21.1	2025-02-22T21:43:43.4893622	Sweet Town Mod/Tags for minecraft:block
+// 1.21.1	2025-02-26T20:54:09.5576323	Sweet Town Mod/Tags for minecraft:block
+3e140bbfe2693fc68d6c8fc7ea095eabbb2e4731 data\minecraft\tags\block\planks.json
 944450485f20d345e0cccb2359311a911c7a0c0b data\minecraft\tags\block\mineable\axe.json
+cc8e5a1b886c17e75f75408ed154cc5ff47fd657 data\minecraft\tags\block\leaves.json
+84e0701f0935e6143e0b487e4259539df3c501b8 data\minecraft\tags\block\mineable\pickaxe.json
