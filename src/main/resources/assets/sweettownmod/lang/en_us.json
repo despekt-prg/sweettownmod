@@ -7,5 +7,14 @@
   "block.sweettownmod.licorice_wood_leaves": "Licorice Wood Leaves",
   "block.sweettownmod.licorice_wood_planks": "Licorice Wood Planks",
   "block.sweettownmod.candy_block": "Candy Block",
-  "block.sweettownmod.candy_block_polished": "Polished Candy Block"
+  "block.sweettownmod.candy_block_polished": "Polished Candy Block",
+  "block.sweettownmod.candy_stairs": "Candy Stairs",
+  "block.sweettownmod.candy_slab": "Candy Slab",
+  "block.sweettownmod.licorice_wood_stairs": "Licorice Wood Stairs",
+  "block.sweettownmod.licorice_wood_button": "Licorice Wood Button",
+  "block.sweettownmod.licorice_wood_pressure_plate": "Licorice Wood Pressure Plate",
+  "block.sweettownmod.licorice_wood_fence": "Licorice Wood Fence",
+  "block.sweettownmod.licorice_wood_fence_gate": "Licorice Wood Fence Gate",
+  "block.sweettownmod.licorice_wood_door": "Licorice Wood Door",
+  "block.sweettownmod.licorice_wood_trapdoor": "Licorice Wood Trapdoor"
 }

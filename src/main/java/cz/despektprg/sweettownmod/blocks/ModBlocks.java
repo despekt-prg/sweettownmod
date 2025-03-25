@@ -2,8 +2,7 @@ package cz.despektprg.sweettownmod.blocks;
 
 import cz.despektprg.sweettownmod.SweetTownMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -33,6 +32,29 @@ public class ModBlocks {
     public static final Block CANDY_BLOCK_POLISHED = registerBlock("candy_block_polished",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
+
+    public static final Block LICORICE_WOOD_STAIRS = registerBlock("licorice_wood_stairs",
+            new StairsBlock(ModBlocks.LICORICE_WOOD.getDefaultState(), AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block CANDY_BLOCK_STAIRS = registerBlock("candy_stairs",
+            new StairsBlock(ModBlocks.CANDY_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CANDY_BLOCK_SLAB = registerBlock("candy_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block LICORICE_WOOD_BUTTON = registerBlock("licorice_wood_button",
+            new ButtonBlock( BlockSetType.OAK, 1 ,AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+    public static final Block LICORICE_WOOD_PRESSURE_PLATE = registerBlock("licorice_wood_pressure_plate",
+            new PressurePlateBlock( BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block LICORICE_WOOD_FENCE = registerBlock("licorice_wood_fence",
+            new FenceBlock( WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()) );
+    public static final Block LICORICE_WOOD_FENCE_GATE = registerBlock("licorice_wood_fence_gate",
+            new FenceGateBlock( AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block LICORICE_WOOD_DOOR = registerBlock("licorice_wood_door",
+            new DoorBlock( WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()) );
+    public static final Block LICORICE_WOOD_TRAPDOOR = registerBlock("licorice_wood_trapdoor",
+            new TrapdoorBlock( AbstractBlock.Settings.create().strength(2f).requiresTool()));
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

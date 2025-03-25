@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "sweettownmod:block/candy_block_polished"
+  }
+}
